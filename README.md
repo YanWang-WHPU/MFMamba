@@ -6,7 +6,7 @@ cuda=11.8
 torch=2.0.0
 mamba=
 # dataset 
-
+All datasets including ISPRS Potsdam and ISPRS Vaihingen can be downloaded 
 # Pretrained Weights of Backbones 
 
 # Train  
