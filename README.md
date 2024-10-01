@@ -16,9 +16,5 @@ All datasets including ISPRS Potsdam and ISPRS Vaihingen can be downloaded [here
 '<python train_MFMamba.py>'
 
 ```
-@Override
-protected void onDestroy() {
-    EventBus.getDefault().unregister(this);
-    super.onDestroy();
-}
+python train_MFMamba.py
 ``` 
