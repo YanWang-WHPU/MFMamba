@@ -13,6 +13,4 @@ All datasets including ISPRS Potsdam and ISPRS Vaihingen can be downloaded [here
 ## requirements
 
 # Train  
-'''
-`<python train_MFMamba.py>` 
-'''
+*python train_MFMamba.py* 
