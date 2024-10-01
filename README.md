@@ -10,9 +10,22 @@ All datasets including ISPRS Potsdam and ISPRS Vaihingen can be downloaded [here
 首先准备好数据集，数据集下载地址：[ISPRS Potsdam and Vaihingen](https://www.isprs.org/education/benchmarks/UrbanSemLab/default.aspx)  
 ## Pretrained Weights of Backbones 
 
-训练权重下载
-## requirements
-
+## Folder Structure
+```
+MFMamba
+├── pretrain (pretrained weights of backbones)
+├── model (models)
+├── train_MFMamba.py (Training code)
+├── utils_Mamba.py (Configuration)
+├── results (The folder to save the results)
+├── data
+│   ├── vaihingen
+│   │   ├── dsm (original)
+│   │   ├── top (original)
+│   │   ├── gts_eroded_for_participants (original)
+│   │   ├── gts_for_participants (original)
+│   ├── potsdam (the same with vaihingen)
+```
 # Install
 ### Open the folder MFMamba using Linux Terminal and create python environment(创建环境):
 ```
@@ -42,7 +55,20 @@ Because installing with pip can be problematic, we recommend downloading and ins
 pip install causal-conv1d
 ```
 Because installing with pip can be problematic, we recommend downloading and installing it [here](https://github.com/Dao-AILab/causal-conv1d/releases)
-# Train  
+# Train 
+### Modify the parameters and addresses
+1. Modify the address of data in utils_Mamba.py, batch_size, training mode =train, training model =MFMamba.  
+（修改utils_Mamba.py中的data的地址、batch_size、训练模式=train、训练模型=MFMamba）  
+2. Modify the address of results in train_MFMamba.py
+### train
+```
+python train_MFMamba.py
+``` 
+# test
+### Modify the parameters and addresses
+1. Modify the address of results in train_MFMamba.py to be the address of the best trained model
+2. Modify the training mode =test in utils_Mamba.py
+### test
 ```
 python train_MFMamba.py
 ``` 
