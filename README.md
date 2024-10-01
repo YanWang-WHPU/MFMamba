@@ -66,7 +66,7 @@ python train_MFMamba.py
 ``` 
 # test
 ### Modify the parameters and addresses
-1. Modify the address of results in train_MFMamba.py to be the address of the best trained model
+1. Modify the address of results in train_MFMamba.py to be the address of the best trained model  
 2. Modify the training mode =test in utils_Mamba.py
 ### test
 ```
@@ -76,7 +76,7 @@ python train_MFMamba.py
 Yan Wang（w2268388154@163.com）
 # Acknowledgement
 Many thanks the following projects's contributions to **MFMamba**.
-[RS3Mamba](https://github.com/sstary/SSRS)
-[UNetFormer](https://github.com/WangLibo1995/GeoSeg)
-[PKINet](https://github.com/NUST-Machine-Intelligence-Laboratory/PKINet)
-[SwiftFormer](https://github.com/Amshaker/SwiftFormer)
+[RS3Mamba](https://github.com/sstary/SSRS)  
+[UNetFormer](https://github.com/WangLibo1995/GeoSeg)  
+[PKINet](https://github.com/NUST-Machine-Intelligence-Laboratory/PKINet)  
+[SwiftFormer](https://github.com/Amshaker/SwiftFormer)  
