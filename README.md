@@ -75,7 +75,7 @@ python train_MFMamba.py
 # Contact
 Yan Wang（w2268388154@163.com）
 # Acknowledgement
-Many thanks the following projects's contributions to **MFMamba**.
+Many thanks the following projects's contributions to **MFMamba**.  
 [RS3Mamba](https://github.com/sstary/SSRS)  
 [UNetFormer](https://github.com/WangLibo1995/GeoSeg)  
 [PKINet](https://github.com/NUST-Machine-Intelligence-Laboratory/PKINet)  
