@@ -1,5 +1,5 @@
 # MFMamba
-This project is the code of MFMamba model  
+This project is the code of **MFMamba** model  
 这个项目是MFMamba的源代码
 # environment
 Our experiments were implemented with the PyTorch framework done on a single NVIDIA A40 GPU equipped with 48GB RAM.  
@@ -71,4 +71,12 @@ python train_MFMamba.py
 ### test
 ```
 python train_MFMamba.py
-``` 
+```
+# Contact
+Yan Wang（w2268388154@163.com）
+# Acknowledgement
+Many thanks the following projects's contributions to **MFMamba**.
+[RS3Mamba](https://github.com/sstary/SSRS)
+[UNetFormer](https://github.com/WangLibo1995/GeoSeg)
+[PKINet](https://github.com/NUST-Machine-Intelligence-Laboratory/PKINet)
+[SwiftFormer](https://github.com/Amshaker/SwiftFormer)
