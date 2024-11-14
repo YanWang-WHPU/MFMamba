@@ -541,8 +541,8 @@ class FusionAttention(nn.Module):
         # print('裁剪前out :',out.shape)
         # print('local :',local.shape) 
 
-        out_M = out_G * local   
-        out = out_M + local
+        # out_M = out_G * local   
+        # out = out_M + local
         out = out_G + local
         # out=local
         # out=out_G
