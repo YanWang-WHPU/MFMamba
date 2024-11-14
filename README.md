@@ -10,7 +10,7 @@ Our experiments were implemented with the PyTorch framework done on a single NVI
 All datasets including ISPRS Potsdam and ISPRS Vaihingen can be downloaded [here](https://www.isprs.org/education/benchmarks/UrbanSemLab/default.aspx)  
 首先准备好数据集，数据集下载地址：[ISPRS Potsdam and Vaihingen](https://www.isprs.org/education/benchmarks/UrbanSemLab/default.aspx)  
 ## Pretrained Weights of Backbones 
-Download the pre-trained weights in this project:[权重链接](https://github.com/sstary/SSRS/blob/main/RS3Mamba/pretrain/vmamba_tiny_e292.pth)
+Download the pre-trained weights in this project:[vmamba_tiny_e292.pth](https://github.com/sstary/SSRS/blob/main/RS3Mamba/pretrain)
 ## Folder Structure
 ```
 MFMamba
