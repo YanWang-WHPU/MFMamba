@@ -1,6 +1,6 @@
 # MFMamba
-This project is the code of **MFMamba: A Mamba-Based Multi-Modal Fusion Network for Semantic Segmentation of Remote Sensing Images** model  
-这个项目是MFMamba: A Mamba-Based Multi-Modal Fusion Network for Semantic Segmentation of Remote Sensing Images的源代码
+This project is the code of **"MFMamba: A Mamba-Based Multi-Modal Fusion Network for Semantic Segmentation of Remote Sensing Images"** model  
+这个项目是  **MFMamba: A Mamba-Based Multi-Modal Fusion Network for Semantic Segmentation of Remote Sensing Images**  的源代码
 Our paper's web site: [论文链接](https://doi.org/10.3390/s24227266)
 # environment
 Our experiments were implemented with the PyTorch framework done on a single NVIDIA A40 GPU equipped with 48GB RAM.  
