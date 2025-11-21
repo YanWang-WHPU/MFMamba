@@ -96,3 +96,7 @@ Many thanks the following projects's contributions to **MFMamba**.
 [UNetFormer](https://github.com/WangLibo1995/GeoSeg)  
 [PKINet](https://github.com/NUST-Machine-Intelligence-Laboratory/PKINet)  
 [SwiftFormer](https://github.com/Amshaker/SwiftFormer)  
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=YanWang-WHPU/MFMamba&type=date&legend=top-left)](https://www.star-history.com/#YanWang-WHPU/MFMamba&type=date&legend=top-left)
